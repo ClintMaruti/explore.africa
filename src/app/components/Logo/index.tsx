@@ -19,11 +19,11 @@ export const Logo = (props: Props) => {
   return (
     <Image
       alt="Explorer africa"
-      width={193}
-      height={34}
+      width={200}
+      height={50}
       loading={loading}
       fetchPriority={priority}
-      className={clsx('max-w-[9.375rem] w-full h-[34px]', className)}
+      className={clsx('max-w-[9.375rem] w-full h-[45px]', className)}
       src={
         typeof props.logoUrl === 'object' &&
         props.logoUrl !== null &&
